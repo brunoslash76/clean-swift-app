@@ -1,6 +1,5 @@
 import Foundation
 import Domain
-import Data
 
 public final class RemoteAddAccount {
     private let url: URL
