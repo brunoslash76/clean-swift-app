@@ -1,5 +1,6 @@
 import XCTest
 import Domain
+import Data
 
 class RemoteAddAccount {
     private let url: URL
