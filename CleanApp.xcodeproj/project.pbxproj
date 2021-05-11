@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		7171BCD4264ACE4300A62BE9 /* ExtensionHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7171BCD3264ACE4300A62BE9 /* ExtensionHelpers.swift */; };
+		7171BCDB264AD8BA00A62BE9 /* TestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7171BCDA264AD8BA00A62BE9 /* TestExtensions.swift */; };
+		7171BCE1264AD9B800A62BE9 /* TestFactories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7171BCE0264AD9B800A62BE9 /* TestFactories.swift */; };
+		7171BCE6264ADA2E00A62BE9 /* HttpClientSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7171BCE5264ADA2E00A62BE9 /* HttpClientSpy.swift */; };
+		7171BCEC264ADB1300A62BE9 /* AccountModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7171BCEB264ADB1300A62BE9 /* AccountModelFactory.swift */; };
 		7184451726495C410000DF5C /* AddAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7184451626495C410000DF5C /* AddAccount.swift */; };
 		7184451A26495D7D0000DF5C /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7184451926495D7D0000DF5C /* AccountModel.swift */; };
 		7184452A26495E920000DF5C /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7184452126495E920000DF5C /* Data.framework */; };
@@ -54,6 +58,10 @@
 
 /* Begin PBXFileReference section */
 		7171BCD3264ACE4300A62BE9 /* ExtensionHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionHelpers.swift; sourceTree = "<group>"; };
+		7171BCDA264AD8BA00A62BE9 /* TestExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExtensions.swift; sourceTree = "<group>"; };
+		7171BCE0264AD9B800A62BE9 /* TestFactories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFactories.swift; sourceTree = "<group>"; };
+		7171BCE5264ADA2E00A62BE9 /* HttpClientSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClientSpy.swift; sourceTree = "<group>"; };
+		7171BCEB264ADB1300A62BE9 /* AccountModelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountModelFactory.swift; sourceTree = "<group>"; };
 		7184450C26495B710000DF5C /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7184450F26495B710000DF5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7184451626495C410000DF5C /* AddAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccount.swift; sourceTree = "<group>"; };
@@ -105,6 +113,24 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		7171BCD9264AD89E00A62BE9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7171BCDA264AD8BA00A62BE9 /* TestExtensions.swift */,
+				7171BCE0264AD9B800A62BE9 /* TestFactories.swift */,
+				7171BCEB264ADB1300A62BE9 /* AccountModelFactory.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7171BCE4264ADA1300A62BE9 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				7171BCE5264ADA2E00A62BE9 /* HttpClientSpy.swift */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
 		718444F026495A580000DF5C = {
 			isa = PBXGroup;
 			children = (
@@ -151,7 +177,9 @@
 		7184452D26495E920000DF5C /* DataTests */ = {
 			isa = PBXGroup;
 			children = (
+				7171BCD9264AD89E00A62BE9 /* Helpers */,
 				7184456426499CDB0000DF5C /* UseCases */,
+				7171BCE4264ADA1300A62BE9 /* Http */,
 				7184453026495E920000DF5C /* Info.plist */,
 			);
 			path = DataTests;
@@ -383,7 +411,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7171BCE1264AD9B800A62BE9 /* TestFactories.swift in Sources */,
+				7171BCE6264ADA2E00A62BE9 /* HttpClientSpy.swift in Sources */,
 				7184452F26495E920000DF5C /* RemoteAddAccountTests.swift in Sources */,
+				7171BCEC264ADB1300A62BE9 /* AccountModelFactory.swift in Sources */,
+				7171BCDB264AD8BA00A62BE9 /* TestExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
