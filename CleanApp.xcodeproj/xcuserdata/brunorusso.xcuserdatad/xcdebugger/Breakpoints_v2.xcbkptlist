@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F5F8C820-F3EF-496C-8C58-250CEAB94580"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2588F302-F242-4521-BCFC-FAD90D94EB9C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InfraTests/AlamofireAdapterTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "startLoading()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "907E369E-00AC-4B83-BA64-B08BBD603EEA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Data/UseCases/RemoteAddAccount.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8"
+            landmarkName = "init(url:httpClient:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "907E369E-00AC-4B83-BA64-B08BBD603EEA - c1444f121800a08f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Data.RemoteAddAccount.__allocating_init(url: Foundation.URL, httpClient: Data.HttpPostClient) -&gt; Data.RemoteAddAccount"
+                  moduleName = "Data"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brunorusso/Documents/TI/swift/RodrigoManguinho/CleanApp/Data/UseCases/RemoteAddAccount.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "10">
+               </Location>
+               <Location
+                  uuid = "907E369E-00AC-4B83-BA64-B08BBD603EEA - 83398d061a67fb92"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Data.RemoteAddAccount.init(url: Foundation.URL, httpClient: Data.HttpPostClient) -&gt; Data.RemoteAddAccount"
+                  moduleName = "Data"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brunorusso/Documents/TI/swift/RodrigoManguinho/CleanApp/Data/UseCases/RemoteAddAccount.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9"
+                  endingLineNumber = "9"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
